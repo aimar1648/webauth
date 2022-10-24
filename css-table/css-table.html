@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Table</title>
+<style>
+caption {
+background-color: firebrick;
+}    
+table {
+border: 2px green;
+border-collapse:collapse;
+}
+thead {
+ border: 1.5px green;
+ border-collapse:collapse;
+ width: 30%;
+ height: 20%;
+ text-align: center;
+ background-color: yellow;
+}
+tbody {
+border: 1px greenyellow;
+border-collapse:collapse;
+width: 30%;
+height: 20%;
+text-align: right;
+padding: .5px;
+background-color: azure;
+}
+tfoot {
+    width: 30%;
+    height: 20%;
+    background-color: aquamarine;
+}
+</style>
+</head>
+<body>
+<table>
+    <caption>Knight Effectivness Table</caption>
+    <thead>
+        <tr>
+            <td>Prowess</td>
+            <td>Modifier</td>
+            <td>Actual Representation</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>10</td>
+            <td>150%</td>
+            <td>2000</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>100%</td>
+            <td>1500</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Prowess</td>
+            <td>Modifier</td>
+            <td>Actual Representation</td>
+        </tr>
+    </tfoot>
+</table>
+</body>
+</html>
