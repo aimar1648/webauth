@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: steelblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: lightslategray;
+    color: lightskyblue;
+  }
+  .active {
+    background-color:  gainsboro;
+  }
+  li #welcome {
+    text-align: left;
+    padding: 14px 16px;
+    display: block;
+  }
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    
+   margin: 10px;
+   width: 100%;
+    
+  }
+  p {
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+   
+    margin: 10px;
+  }
+  body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  img {
+    position: relative;
+  }
+  #intro {
+    width: 50%;
+    margin: auto;
+  }
+  #img1 {
+    width: 50%;
+   position: absolute;
+    left: 0%;
+  }
+  #img2 {
+    width: 50%;
+    left: 50%;
+    position: absolute;
+    right: 0%;
+  }
